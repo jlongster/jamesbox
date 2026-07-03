@@ -1,0 +1,53 @@
+(deftheme james
+  "Created 2019-05-10.")
+
+(custom-theme-set-variables
+ 'james
+ '(ansi-color-names-vector ["#fdf6e3" "#dc322f" "#859900" "#b58900" "#268bd2" "#d33682" "#2aa198" "#657b83"])
+ '(c-basic-offset 4)
+ '(css-indent-offset 2)
+ '(custom-safe-themes (quote ("30fe7e72186c728bd7c3e1b8d67bc10b846119c45a0f35c972ed427c45bacc19" "fe6330ecf168de137bb5eddbf9faae1ec123787b5489c14fa5fa627de1d9f82b" "1177fe4645eb8db34ee151ce45518e47cc4595c3e72c55dc07df03ab353ad132" "59e139601f357dba80b87f7878f2da03d66ef118d727bc7bb3d30b6509391ef0" "e5cf165e63eb7a4f2a8be7da9445d47d7b53f3cdc784e6e384b5fe870d37931f" "ef8251b88d52102548978a98df8389bf540e104f7c197c9b299041739dbdc6aa" "68769179097d800e415631967544f8b2001dae07972939446e21438b1010748c" "e890fd7b5137356ef5b88be1350acf94af90d9d6dd5c234978cd59a6b873ea94" "e16a771a13a202ee6e276d06098bc77f008b73bbac4d526f160faa2d76c1dd0e" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "085b401decc10018d8ed2572f65c5ba96864486062c0a2391372223294f89460" "1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6" "907ac699721b960f43c1d9825f956179901650dc7ad25595dcdcc18683bbd1f9" default)))
+ '(default-frame-alist (quote ((vertical-scroll-bars))))
+ '(explicit-shell-file-name nil)
+ '(face-font-family-alternatives (quote (("courier" "fixed") ("helv" "helvetica" "arial" "fixed"))))
+ '(grep-find-command (quote ("find . -type f -exec grep -nHi -e  {} +" . 35)))
+ '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
+ '(hippie-expand-try-functions-list (quote (try-expand-all-abbrevs try-expand-list try-expand-line try-expand-dabbrev try-expand-dabbrev-all-buffers try-expand-dabbrev-from-kill try-complete-lisp-symbol-partially try-complete-lisp-symbol)))
+ '(indent-tabs-mode nil)
+ '(inhibit-startup-screen t)
+ '(js-indent-level 2)
+ '(js-switch-indent-offset 2)
+ '(large-file-warning-threshold nil)
+ '(linum-delay nil)
+ '(linum-format "%3d ")
+ '(minibuffer-auto-raise t)
+ '(minibuffer-prompt-properties (quote (read-only t point-entered minibuffer-avoid-prompt face minibuffer-prompt)))
+ '(ns-alternate-modifier (quote meta))
+ '(ns-command-modifier (quote meta))
+ '(outline-regexp " *////+")
+ '(package-selected-packages (quote (ido-ubiquitous alchemist swift-mode tuareg web-mode w3 undo-tree starter-kit solarized-theme smooth-scroll rust-mode qsimpleq-theme pastels-on-dark-theme nrepl monokai-theme markdown-mode lua-mode lineno late-night-theme js2-mode js-comint inf-clojure haml-mode elisp-slime-nav color-theme coffee-mode caml auto-complete assemblage-theme ample-zen-theme ace-jump-mode)))
+ '(perl-indent-level 4)
+ '(prettier-args (quote ("--single-quote" "--parser" "babylon")))
+ '(rst-adornment-faces-alist (quote ((t . font-lock-keyword-face) (nil . font-lock-keyword-face) (1 . default) (2 . default) (3 . default) (4 . default) (5 . rst-level-5-face) (6 . rst-level-6-face) (1 . rst-level-1-face) (2 . rst-level-2-face) (3 . rst-level-3-face) (4 . rst-level-4-face) (5 . rst-level-5-face) (6 . rst-level-6-face))))
+ '(safe-local-variable-values (quote ((encoding . utf-8) (Syntax . Scheme) (Package . Scheme))))
+ '(scheme-mit-dialect nil)
+ '(scheme-program-name "gsc")
+ '(shell-popd-regexp "\\-")
+ '(shell-prompt-pattern "^[^#$%>
+]*[#$%>] *")
+ '(shell-pushd-regexp "pushd")
+ '(standard-indent 4)
+ '(swift-mode:basic-offset 4)
+ '(tab-stop-list (quote (4 8 12 16 24 32 40 48 56 64 72 80 88 96 104 112 120)))
+ '(tab-width 4)
+ '(tramp-verbose 0)
+ '(truncate-lines t)
+ '(fringe-mode 10)
+ '(global-linum-mode nil))
+
+(custom-theme-set-faces
+ 'james
+ '(linum ((t (:inherit (shadow default)))))
+ '(default ((t (:inherit nil :stipple nil :background "#fdf6e3" :foreground "#657b83" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 150 q:width normal :foundry "nil" :family "Monaco")))))
+
+(provide-theme 'james)

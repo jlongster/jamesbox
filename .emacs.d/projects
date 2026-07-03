@@ -1,0 +1,4 @@
+;;; -*- lisp-data -*-
+(("/Users/james/projects/opencode/") ("/Users/james/projects/react/")
+ ("/Users/james/.emacs.d/")
+ ("/Users/james/.emacs.d/elpa/claude-code-ide/"))

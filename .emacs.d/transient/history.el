@@ -1,0 +1,15 @@
+((claude-code-ide-config-menu nil)
+ (claude-code-ide-menu nil)
+ (magit-commit nil)
+ (magit-diff
+  ("--no-ext-diff" "--stat"))
+ (magit-dispatch nil)
+ (magit-ediff nil)
+ (magit-gitignore nil)
+ (magit-push nil)
+ (magit-rebase nil)
+ (magit-revert
+  ("--edit"))
+ (magit-stash nil)
+ (magit-submodule nil)
+ (magit-worktree nil))
